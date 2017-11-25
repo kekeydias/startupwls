@@ -1,0 +1,7 @@
+/target/
+/.sonar/
+/.gwt/
+/.settings/
+/gwt-unitCache/
+/bin/
+log4j.log
