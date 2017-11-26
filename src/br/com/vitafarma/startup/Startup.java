@@ -16,11 +16,8 @@ public class Startup extends TestCase {
 			Startup.logger = Logger.getLogger(Startup.class.getName());
 		} catch (Exception ex) {
 			ex.printStackTrace();
-
 			RuntimeException re = new RuntimeException(ex.getMessage());
-
 			re.initCause(ex);
-
 			throw re;
 		}
 	}
@@ -70,7 +67,8 @@ public class Startup extends TestCase {
 
 			ex.printStackTrace();
 
-			throw ex;
+			// TABELA 'DUAL' APENA EM BANCO DE DADOS ORACLE
+			// throw ex;
 		}
 	}
 
